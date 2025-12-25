@@ -1,0 +1,14 @@
+# This project uses only standart Python libraries
+# Used standart modules are:
+# - multiprocessing
+# - itertools  
+# - time
+# - tkinter
+# - ctypes
+# - signal
+# - sys
+#
+# Python 3.12 or later is required for launch
+# There are no external dependencies
+# OS: Windows 10 or later is required for program launch
+# Windows-specific modules: ctypes.windll.user32
