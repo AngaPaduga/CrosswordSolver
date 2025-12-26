@@ -66,6 +66,12 @@ This is done by placing the mouse pointer on a letter and pressing the Enter key
 The letters must be entered in the same order in which they were entered on the letter panel, 
 that is, starting with the top letter located at 12 o'clock and moving clockwise (see Pictures 6-8).
 
+**IMPORTANT NOTE.**
+
+**_Note that when specifying the position of the letters, it is the window of the running program main_module.py that must be active, but not the crossword puzzle window (crossword puzzle window simply must be present on the screen). Otherwise, the coordinates will not be entered!_**
+**_Therefore, click on the top of the main_module.py program window to activate it before specifying the letters. The successful completion of reading the specified positions of each letter is indicated by the appearance of a new message in the program window: “Place the cursor on the next letter and press Enter” (see Figures 6-8)._**
+
+
 ![Picture6](./Pictures/Picture6.png)
 
 												Picture6
