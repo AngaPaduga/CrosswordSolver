@@ -88,7 +88,7 @@ When all the letters from the circle are clicked in this way, the program will i
 The mouse pointer moves across the screen and selects letters, cycling through all possible words. The program exits when all words have been searched.
 But you can stop the program at any time by pressing the SPACE key.
 
-
+**IMPORTANT NOTE**
 **_The program uses a complete search of combinations of letters in a loop. If you see that the crossword puzzle has already been solved, but the program continues to move the mouse and is still “typing words”, then you should stop it by pressing the SPACE key !_** ⌨
 
 
