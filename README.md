@@ -90,8 +90,8 @@ that is, starting with the top letter located at 12 o'clock and moving clockwise
 
 
 
-When all the letters from the circle are clicked in this way, the program will immediately begin work on solving the crossword puzzle.
-The mouse pointer moves across the screen and selects letters, cycling through all possible words. The program exits when all words have been searched.
+When all the letters from the circle are pointed in this way, the program will immediately begin work on solving the crossword puzzle.
+The mouse pointer moves across the screen automatically and selects letters, cycling through all possible words. The program exits when all words have been searched.
 But you can stop the program at any time by pressing the SPACE key.
 
 **IMPORTANT NOTE.**
@@ -101,7 +101,7 @@ But you can stop the program at any time by pressing the SPACE key.
 
 **Attention! Be careful!** ⚡
 
-**After you have indicated the screen coordinates of all letters to this program, do not move the crossword puzzle window, do not minimize it or change its scale!**
+**After you have pointed the screen coordinates of all letters to this program (as You see on Pictures 6-8), do not move the crossword puzzle window, do not minimize it or change its scale!**
 **Also, do not cover it with other application windows on the screen!**
 **Do not press any keys on your keyboard or move your mouse while this program is running!**
 
