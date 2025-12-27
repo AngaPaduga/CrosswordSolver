@@ -61,7 +61,7 @@ The letters are clicked on the panel starting from the top one, which is located
 
 
 
-The program will then wait for the screen coordinates of the letters on the circle to be entered.
+Let's assume that all letters are entered. The program will then wait for the screen coordinates of the letters on the circle to be entered.
 This is done by placing the mouse pointer on a letter and pressing the Enter key.
 The letters must be entered in the same order in which they were entered on the letter panel, 
 that is, starting with the top letter located at 12 o'clock and moving clockwise (see Pictures 6-8).
