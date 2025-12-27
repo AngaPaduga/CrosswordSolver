@@ -12,7 +12,7 @@ This program is capable of solving such crossword puzzles automatically.
 
 # Installation
 You should install Python envoronment first (https://www.python.org/downloads/).
-Then, transfer the python-file (main_module.py) from the \src-folder of this repository to to any folder of your Windows OS.
+Then, transfer the python-file (main_module.py) from the \src-folder of this repository to any folder of your Windows OS.
 
 # Usage
 There are many wonderful crossword games where letters are arranged in a circle and you connect them to form words, 
@@ -35,8 +35,8 @@ Run python-file main_module.py by double clicking or by using IDLE Python (see P
 
 
 The program window with the crossword puzzle should already be running, and no other windows should be covering it.
-The program will start working and in the command window will issue a contextual request
-- type the number of letters for the current crossword puzzle, then press Enter (see Picture3).
+The program will start working and in the command window will issue a contextual request: to input the number of letters for the current crossword puzzle.
+You should type the number of letters for the current crossword puzzle, then press Enter (see Picture3).
 
 ![Picture3](./Pictures/Picture3.png)
 
