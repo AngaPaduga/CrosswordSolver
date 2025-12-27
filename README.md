@@ -53,7 +53,7 @@ After this, a panel with letters will appear (see Picture4), on which you need t
 
 
 
-The letters are clicked starting from the top one, located at 12 o'clock, and clockwise (see Picture5).
+The letters are clicked on the panel starting from the top one, which is located at 12 o'clock inside the circle, and further clockwise (see Picture5).
 
 ![Picture5](./Pictures/Picture5.png)
 
