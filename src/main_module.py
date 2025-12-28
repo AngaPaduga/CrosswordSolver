@@ -273,6 +273,12 @@ buttonYA.grid(row = 2, column = 10, sticky = NW+SE)
 
 def main():
 
+    print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    print("Remember! You can stop the program at any time by pressing the SPACE key.")
+    print("Помните! Вы можете остановить программу в любой момент нажатием клавиши ПРОБЕЛ.")
+    print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    time.sleep(1.0)
+    
     space_pressed = mp.Value('b', False)
     lettrs_number = int(input("Введите количество букв на круге -> "))
 
