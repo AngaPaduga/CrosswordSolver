@@ -1,6 +1,7 @@
 """
 Сrossword Solver
 
+
 License: MIT
 Copyright (c) 2025 [Anga Paduga]
 
