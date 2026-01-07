@@ -11,6 +11,7 @@ which are then inserted into the crossword (see Picture1 below).
 This program is capable of solving such crossword puzzles automatically.
 
 # Installation
+This program is for Windows only.
 You should install Python envoronment first (https://www.python.org/downloads/).
 Then, transfer the python-file (main_module.py) from the \src-folder of this repository to any folder of your Windows OS.
 
