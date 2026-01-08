@@ -2,7 +2,7 @@
 Python project to solve crosswords by automatically selecting given letters with mouse pointer on the computer screen.
 
 # Version
-1.0.0-beta.1
+1.0.0-beta.2
 
 # Description
 
@@ -63,14 +63,13 @@ The letters are clicked on the panel starting from the top one, which is located
 
 
 Let's assume that all letters are entered. The program will then wait for the screen coordinates of the letters on the circle to be entered.
-This is done by placing the mouse pointer on a letter and pressing the Enter key.
-The letters must be entered in the same order in which they were entered on the letter panel, 
+This is done by placing the mouse pointer on a letter and by clicking the left mouse button.
+The letters must be clicked in the same order in which they were entered on the letter panel, 
 that is, starting with the top letter located at 12 o'clock and moving clockwise (see Pictures 6-8).
 
 **IMPORTANT NOTE.**
 
-**_Note that when specifying the position of the letters, it is the window of the running program main_module.py that must be active, but not the crossword puzzle window (crossword puzzle window simply must be present on the screen). Otherwise, the coordinates will not be entered!_**
-**_Therefore, click on the top of the main_module.py program window to activate it before specifying the letters. The successful completion of reading the specified positions of each letter is indicated by the appearance of a new message in the program window: “Place the cursor on the next letter and press Enter” (see Figures 6-8)._**
+**The successful completion of reading the specified positions of each letter is indicated by the appearance of a new message in the program command window: “Place the cursor on the next letter and click the left mouse button...” (see Figures 6-8)._**
 
 
 ![Picture6](./Pictures/Picture6.png)
@@ -92,7 +91,8 @@ that is, starting with the top letter located at 12 o'clock and moving clockwise
 
 
 When all the letters from the circle are pointed in this way, the program will immediately begin work on solving the crossword puzzle.
-The mouse pointer moves across the screen automatically and selects letters, cycling through all possible words. The program exits when all words have been searched.
+First, the new message in the program command window is printed: “Remember! You can stop the program at any time by pressing the SPACE key.”
+Then the mouse pointer moves across the screen automatically and selects letters, cycling through all possible words. The program exits when all words have been searched.
 But you can stop the program at any time by pressing the SPACE key.
 
 **IMPORTANT NOTE.**
@@ -104,7 +104,7 @@ But you can stop the program at any time by pressing the SPACE key.
 
 **After you have pointed the screen coordinates of all letters to this program (as You see on Pictures 6-8), do not move the crossword puzzle window, do not minimize it or change its scale!**
 **Also, do not cover it with other application windows on the screen!**
-**Do not press any keys on your keyboard or move your mouse while this program is running!**
+**Do not press any keys on your keyboard (except the SPACE key) and do not move your mouse while this program is running!**
 
 **All this can lead to incorrect crossword solutions, as well as accidental damage or deletion of files on your desktop.**
 **If you need to immediately emergency stop this program, press the SPACE key.**
