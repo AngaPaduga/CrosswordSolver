@@ -3,7 +3,7 @@
 
 
 License: MIT
-Copyright (c) 2025 [Anga Paduga]
+Copyright (c) 2026 [Anga Paduga]
 
 This project uses Python and its standard libraries, which are
 distributed under the Python Software Foundation License.
@@ -35,6 +35,8 @@ class POINT(Structure):
 
 VK_SPACE = 0x20
 user32 = ctypes.windll.user32
+GetAsyncKeyState = user32.GetAsyncKeyState
+VK_LBUTTON = 0x01
 
 def hotkey_listener(space_pressed):
     msg = wintypes.MSG()
@@ -283,24 +285,43 @@ def main():
             root.destroy()
 
     for currnt_ltter in range(0, len(leters)):
-        print("Поставьте курсор на очередную букву и нажмите Enter ")
-        input()
+        print("Поставьте курсор на очередную букву и кликните левой кнопкой мыши... ")
         if len(leters) == 3:
+            while GetAsyncKeyState(VK_LBUTTON) & 0x8000:
+                time.sleep(0.01)
+            while not (GetAsyncKeyState(VK_LBUTTON) & 0x8000):
+                time.sleep(0.01)
             x_coordinates3[currnt_ltter] = get_cursor_coordinateX()
             y_coordinates3[currnt_ltter] = get_cursor_coordinateY()
         if len(leters) == 4:
+            while GetAsyncKeyState(VK_LBUTTON) & 0x8000:
+                time.sleep(0.01)
+            while not (GetAsyncKeyState(VK_LBUTTON) & 0x8000):
+                time.sleep(0.01)
             x_coordinates4[currnt_ltter] = get_cursor_coordinateX()
             y_coordinates4[currnt_ltter] = get_cursor_coordinateY()
         if len(leters) == 5:
+            while GetAsyncKeyState(VK_LBUTTON) & 0x8000:
+                time.sleep(0.01)
+            while not (GetAsyncKeyState(VK_LBUTTON) & 0x8000):
+                time.sleep(0.01)
             x_coordinates5[currnt_ltter] = get_cursor_coordinateX()
             y_coordinates5[currnt_ltter] = get_cursor_coordinateY()
         if len(leters) == 6:
+            while GetAsyncKeyState(VK_LBUTTON) & 0x8000:
+                time.sleep(0.01)
+            while not (GetAsyncKeyState(VK_LBUTTON) & 0x8000):
+                time.sleep(0.01)
             x_coordinates6[currnt_ltter] = get_cursor_coordinateX()
             y_coordinates6[currnt_ltter] = get_cursor_coordinateY()
         if len(leters) == 7:
+            while GetAsyncKeyState(VK_LBUTTON) & 0x8000:
+                time.sleep(0.01)
+            while not (GetAsyncKeyState(VK_LBUTTON) & 0x8000):
+                time.sleep(0.01)
             x_coordinates7[currnt_ltter] = get_cursor_coordinateX()
             y_coordinates7[currnt_ltter] = get_cursor_coordinateY()
-
+    
     listener_process = mp.Process(target=hotkey_listener, args=(space_pressed,))
     listener_process.start()
 
@@ -435,7 +456,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 
 
